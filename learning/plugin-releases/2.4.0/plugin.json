@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "negikinnaur@gmail.com",
+    "name": "Arvind Kumar"
+  },
+  "description": "Source-backed BTC derivatives and Indian market reviews using Arvind Kumar's connected Delta and Upstox market-data apps. Manual trading only.",
+  "extensions": {
+    "com.openai": {
+      "apps": "./.app.json",
+      "interface": {
+        "category": "Finance",
+        "defaultPrompt": [
+          "Review BTCUSD on Delta using fresh data and show conditional scenarios.",
+          "Review NIFTY using Upstox data and evaluate liquid option-buying candidates.",
+          "Review both BTC and Indian markets, keeping their sessions, currencies and risks separate."
+        ],
+        "developerName": "Arvind Kumar",
+        "displayName": "BTC & Indian Market Review",
+        "longDescription": "Reviews Delta India BTC perpetuals/options and Upstox Indian indices, stocks, futures and options. Checks timestamps, contracts, liquidity and market status; calculates supported indicators; presents conditional scenarios and risk sizing. Uses existing app connections. No account access or trade execution.",
+        "shortDescription": "BTC and Upstox market analysis"
+      }
+    }
+  },
+  "name": "btc-upstox-market-review",
+  "version": "2.4.0"
+}
