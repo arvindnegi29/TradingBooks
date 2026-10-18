@@ -1,0 +1,72 @@
+name: Build missing book PDFs
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: book-pdf-conversion
+  cancel-in-progress: false
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - name: Install ebook converter and PDF validator
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y calibre poppler-utils
+      - name: Convert missing PDF editions
+        shell: python
+        run: |
+          import pathlib, subprocess, json, os
+          root = pathlib.Path(".")
+          sources = {}
+          for ext in (".epub", ".azw", ".mobi"):
+              for p in sorted(root.glob("*" + ext)):
+                  sources.setdefault(p.stem, p)
+          rows = []
+          failed = False
+          for stem, source in sources.items():
+              target = root / (stem + ".pdf")
+              if target.exists():
+                  continue
+              temp = root / (stem + ".converting.pdf")
+              row = {"source": source.name, "pdf": target.name}
+              try:
+                  subprocess.run(["ebook-convert", str(source), str(temp),
+                      "--paper-size", "a4", "--pdf-default-font-size", "12",
+                      "--margin-top", "36", "--margin-bottom", "36",
+                      "--margin-left", "36", "--margin-right", "36"],
+                      check=True, timeout=900, stdout=subprocess.DEVNULL)
+                  info = subprocess.check_output(["pdfinfo", str(temp)], text=True)
+                  pages = int(next(line.split(":")[1].strip() for line in info.splitlines()
+                                   if line.startswith("Pages:")))
+                  if pages < 1 or temp.stat().st_size >= 95_000_000:
+                      raise ValueError("Empty PDF or exceeds safe GitHub file-size limit")
+                  temp.rename(target)
+                  row.update(status="converted", pages=pages, bytes=target.stat().st_size)
+              except Exception as e:
+                  failed = True
+                  row.update(status="failed", error=str(e))
+                  temp.unlink(missing_ok=True)
+              rows.append(row)
+              print(json.dumps(row), flush=True)
+          pathlib.Path("pdf-conversion-report.json").write_text(json.dumps(rows, indent=2))
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as f:
+              f.write("# Missing PDF conversion\n\n")
+              for row in rows:
+                  f.write("- " + row["source"] + ": " + row["status"] + "\n")
+          if failed:
+              print("Some books failed; inspect report. Successful PDFs will still be committed.")
+      - name: Commit converted PDFs and report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- '*.pdf' pdf-conversion-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Add missing PDF editions converted from existing ebooks"
+            git push
+          fi
