@@ -1,0 +1,46 @@
+{
+  "folder": "New Folder",
+  "order": "repository alphabetical listing; complete one book before the next",
+  "total_pages": 1231,
+  "completed_books": 0,
+  "books": [
+    {
+      "order": 1,
+      "title": "Algorithmic Trading",
+      "author": "Ernest P. Chan",
+      "pdf_pages": 225,
+      "blob_sha": "b989ccdd650e8f1ff6b30f6c7164410c8ba7622a",
+      "status": "partial",
+      "read_sections": [
+        "Preface: PDF 11-17",
+        "Chapter 1: PDF 19-56"
+      ],
+      "next_pdf_page": 57,
+      "not_done": [
+        "Chapters 2-8",
+        "Conclusion and back matter",
+        "Full annotation audit",
+        "Code execution and empirical validation"
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Mastering the Trade",
+      "author": "not verified from source title page in this study",
+      "pdf_pages": 525,
+      "blob_sha": "d5b11415b61bbfb6934879af581d65935d8ff0c0",
+      "status": "not_read",
+      "note": "Downloaded and text extracted only; not substantively reviewed."
+    },
+    {
+      "order": 3,
+      "title": "The Art and Science of Technical Analysis",
+      "author": "not verified from source title page in this study",
+      "pdf_pages": 481,
+      "blob_sha": "6c66478a4220768e445f240fa19c3bce096ad0a2",
+      "status": "not_read",
+      "note": "Downloaded and text extracted only; not substantively reviewed."
+    }
+  ],
+  "background_reading": false
+}
