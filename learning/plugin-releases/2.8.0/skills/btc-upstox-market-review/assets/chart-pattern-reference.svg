@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="1260" viewBox="0 0 1260 1260">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<style>text{font-family:Arial,sans-serif;fill:#172b45}.t{font-size:20px;font-weight:bold}.l{font-size:13px}.n{font-size:16px}</style>
+<text x="30" y="32" class="t">Chart geometry reference - original illustrative schematics</text>
+<text x="30" y="59" class="n">Not live prices, candles, detector output or trade signals. Read the linked source rules and exceptions.</text>
+<g transform="translate(25,85)"><rect width="390" height="260" rx="10" fill="white" stroke="#cbd5e1"/><text x="15" y="29" class="t">Rectangle</text><g transform="translate(25,60) scale(1.65,1)">
+<line x1="25" y1="35" x2="180" y2="35" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="25" y1="95" x2="180" y2="95" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4 3"/>
+<polyline points="5,95 30,35 60,95 90,35 120,95 150,35 175,65" fill="none" stroke="#153e75" stroke-width="2"/>
+<text x="30" y="28" class="l">U</text>
+<text x="60" y="112" class="l">L</text>
+</g><text x="15" y="231" class="l">Dashed = candidate boundary/confirmation reference</text><text x="15" y="250" class="l">A close and causal anchors must be checked separately.</text></g>
+<g transform="translate(440,85)"><rect width="390" height="260" rx="10" fill="white" stroke="#cbd5e1"/><text x="15" y="29" class="t">Ascending triangle</text><g transform="translate(25,60) scale(1.65,1)">
+<line x1="30" y1="30" x2="190" y2="30" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="10" y1="90" x2="190" y2="30" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4 3"/>
+<polyline points="10,90 35,30 60,75 90,30 115,60 145,30 165,45" fill="none" stroke="#153e75" stroke-width="2"/>
+<text x="35" y="23" class="l">U</text>
+<text x="60" y="91" class="l">L1</text>
+<text x="115" y="76" class="l">L2</text>
+</g><text x="15" y="231" class="l">Dashed = candidate boundary/confirmation reference</text><text x="15" y="250" class="l">A close and causal anchors must be checked separately.</text></g>
+<g transform="translate(855,85)"><rect width="390" height="260" rx="10" fill="white" stroke="#cbd5e1"/><text x="15" y="29" class="t">Descending triangle</text><g transform="translate(25,60) scale(1.65,1)">
+<line x1="10" y1="25" x2="190" y2="95" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="30" y1="95" x2="190" y2="95" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4 3"/>
+<polyline points="10,25 35,95 65,45 90,95 120,65 145,95 165,80" fill="none" stroke="#153e75" stroke-width="2"/>
+<text x="12" y="18" class="l">H1</text>
+<text x="65" y="38" class="l">H2</text>
+<text x="150" y="113" class="l">L</text>
+</g><text x="15" y="231" class="l">Dashed = candidate boundary/confirmation reference</text><text x="15" y="250" class="l">A close and causal anchors must be checked separately.</text></g>
+<g transform="translate(25,365)"><rect width="390" height="260" rx="10" fill="white" stroke="#cbd5e1"/><text x="15" y="29" class="t">Symmetrical triangle</text><g transform="translate(25,60) scale(1.65,1)">
+<line x1="10" y1="20" x2="195" y2="72" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="35" y1="105" x2="195" y2="58" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4 3"/>
+<polyline points="10,20 35,105 65,40 90,85 120,58 145,72 165,65" fill="none" stroke="#153e75" stroke-width="2"/>
+<text x="12" y="14" class="l">H1</text>
+<text x="38" y="121" class="l">L1</text>
+</g><text x="15" y="231" class="l">Dashed = candidate boundary/confirmation reference</text><text x="15" y="250" class="l">A close and causal anchors must be checked separately.</text></g>
+<g transform="translate(440,365)"><rect width="390" height="260" rx="10" fill="white" stroke="#cbd5e1"/><text x="15" y="29" class="t">Flag</text><g transform="translate(25,60) scale(1.65,1)">
+<line x1="60" y1="20" x2="180" y2="63" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="80" y1="45" x2="180" y2="85" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4 3"/>
+<polyline points="5,115 60,20 80,45 105,35 130,65 150,55 175,80" fill="none" stroke="#153e75" stroke-width="2"/>
+<text x="8" y="130" class="l">Pole start</text>
+<text x="58" y="13" class="l">Pole end</text>
+</g><text x="15" y="231" class="l">Dashed = candidate boundary/confirmation reference</text><text x="15" y="250" class="l">A close and causal anchors must be checked separately.</text></g>
+<g transform="translate(855,365)"><rect width="390" height="260" rx="10" fill="white" stroke="#cbd5e1"/><text x="15" y="29" class="t">Pennant</text><g transform="translate(25,60) scale(1.65,1)">
+<line x1="60" y1="20" x2="185" y2="60" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="82" y1="75" x2="185" y2="48" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4 3"/>
+<polyline points="5,115 60,20 82,75 110,35 132,62 155,48 175,55" fill="none" stroke="#153e75" stroke-width="2"/>
+<text x="8" y="130" class="l">Pole start</text>
+<text x="58" y="13" class="l">Pole end</text>
+</g><text x="15" y="231" class="l">Dashed = candidate boundary/confirmation reference</text><text x="15" y="250" class="l">A close and causal anchors must be checked separately.</text></g>
+<g transform="translate(25,645)"><rect width="390" height="260" rx="10" fill="white" stroke="#cbd5e1"/><text x="15" y="29" class="t">Double bottom</text><g transform="translate(25,60) scale(1.65,1)">
+<line x1="25" y1="45" x2="190" y2="45" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4 3"/>
+<polyline points="5,20 35,100 75,45 115,100 160,45" fill="none" stroke="#153e75" stroke-width="2"/>
+<text x="25" y="118" class="l">L1</text>
+<text x="108" y="118" class="l">L2</text>
+<text x="160" y="35" class="l">Confirm</text>
+</g><text x="15" y="231" class="l">Dashed = candidate boundary/confirmation reference</text><text x="15" y="250" class="l">A close and causal anchors must be checked separately.</text></g>
+<g transform="translate(440,645)"><rect width="390" height="260" rx="10" fill="white" stroke="#cbd5e1"/><text x="15" y="29" class="t">Triple bottom</text><g transform="translate(25,60) scale(1.65,1)">
+<line x1="20" y1="40" x2="190" y2="40" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4 3"/>
+<polyline points="0,20 25,100 55,40 85,100 115,50 145,100 180,40" fill="none" stroke="#153e75" stroke-width="2"/>
+<text x="15" y="118" class="l">L1</text>
+<text x="75" y="118" class="l">L2</text>
+<text x="135" y="118" class="l">L3</text>
+</g><text x="15" y="231" class="l">Dashed = candidate boundary/confirmation reference</text><text x="15" y="250" class="l">A close and causal anchors must be checked separately.</text></g>
+<g transform="translate(855,645)"><rect width="390" height="260" rx="10" fill="white" stroke="#cbd5e1"/><text x="15" y="29" class="t">Double top</text><g transform="translate(25,60) scale(1.65,1)">
+<line x1="25" y1="80" x2="190" y2="80" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4 3"/>
+<polyline points="5,115 35,25 75,80 115,25 160,80" fill="none" stroke="#153e75" stroke-width="2"/>
+<text x="25" y="18" class="l">H1</text>
+<text x="105" y="18" class="l">H2</text>
+<text x="153" y="98" class="l">Confirm</text>
+</g><text x="15" y="231" class="l">Dashed = candidate boundary/confirmation reference</text><text x="15" y="250" class="l">A close and causal anchors must be checked separately.</text></g>
+<g transform="translate(25,925)"><rect width="390" height="260" rx="10" fill="white" stroke="#cbd5e1"/><text x="15" y="29" class="t">Triple top</text><g transform="translate(25,60) scale(1.65,1)">
+<line x1="20" y1="85" x2="190" y2="85" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4 3"/>
+<polyline points="0,115 25,25 55,85 85,25 115,75 145,25 180,85" fill="none" stroke="#153e75" stroke-width="2"/>
+<text x="15" y="18" class="l">H1</text>
+<text x="75" y="18" class="l">H2</text>
+<text x="135" y="18" class="l">H3</text>
+</g><text x="15" y="231" class="l">Dashed = candidate boundary/confirmation reference</text><text x="15" y="250" class="l">A close and causal anchors must be checked separately.</text></g>
+<g transform="translate(440,925)"><rect width="390" height="260" rx="10" fill="white" stroke="#cbd5e1"/><text x="15" y="29" class="t">H&amp;S bottom</text><g transform="translate(25,60) scale(1.65,1)">
+<line x1="55" y1="35" x2="190" y2="35" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4 3"/>
+<polyline points="0,20 25,75 55,35 85,110 115,35 145,75 180,35" fill="none" stroke="#153e75" stroke-width="2"/>
+<text x="16" y="92" class="l">LS</text>
+<text x="70" y="130" class="l">Head</text>
+<text x="136" y="92" class="l">RS</text>
+</g><text x="15" y="231" class="l">Dashed = candidate boundary/confirmation reference</text><text x="15" y="250" class="l">A close and causal anchors must be checked separately.</text></g>
+<g transform="translate(855,925)"><rect width="390" height="260" rx="10" fill="white" stroke="#cbd5e1"/><text x="15" y="29" class="t">H&amp;S top</text><g transform="translate(25,60) scale(1.65,1)">
+<line x1="55" y1="95" x2="190" y2="95" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4 3"/>
+<polyline points="0,115 25,55 55,95 85,20 115,95 145,55 180,95" fill="none" stroke="#153e75" stroke-width="2"/>
+<text x="16" y="48" class="l">LS</text>
+<text x="70" y="13" class="l">Head</text>
+<text x="136" y="48" class="l">RS</text>
+</g><text x="15" y="231" class="l">Dashed = candidate boundary/confirmation reference</text><text x="15" y="250" class="l">A close and causal anchors must be checked separately.</text></g>
+<text x="30" y="1240" class="n">H&amp;S slope overrides, full-pattern bust thresholds and numerical targets: see chart-pattern-workflow.md.</text></svg>
