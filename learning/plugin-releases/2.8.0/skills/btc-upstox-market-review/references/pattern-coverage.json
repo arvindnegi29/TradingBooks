@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "source_book": "Bulkowski exact-source B143; sourcecopyright2013;filename2012",
+  "scope": "Source-informed visual/manual assessment workflow. No automated pattern detector supplied by this update.",
+  "core_patterns": [
+    {
+      "id": "rectangle_bottom",
+      "source_chapter": 7,
+      "pdf_pages": [
+        71,
+        84
+      ],
+      "knowledge_status": "reviewed_source_rules",
+      "visual_assessment_requires": "Actual chart,causal anchors,disclosed local tolerances and confirmation policy",
+      "automated_detector_status": "not_implemented",
+      "strategy_validation": "not_performed"
+    },
+    {
+      "id": "rectangle_top",
+      "source_chapter": 7,
+      "pdf_pages": [
+        71,
+        84
+      ],
+      "knowledge_status": "reviewed_source_rules",
+      "visual_assessment_requires": "Actual chart,causal anchors,disclosed local tolerances and confirmation policy",
+      "automated_detector_status": "not_implemented",
+      "strategy_validation": "not_performed"
+    },
+    {
+      "id": "ascending_triangle",
+      "source_chapter": 8,
+      "pdf_pages": [
+        85,
+        96
+      ],
+      "knowledge_status": "reviewed_source_rules",
+      "visual_assessment_requires": "Actual chart,causal anchors,disclosed local tolerances and confirmation policy",
+      "automated_detector_status": "not_implemented",
+      "strategy_validation": "not_performed"
+    },
+    {
+      "id": "descending_triangle",
+      "source_chapter": 9,
+      "pdf_pages": [
+        97,
+        108
+      ],
+      "knowledge_status": "reviewed_source_rules",
+      "visual_assessment_requires": "Actual chart,causal anchors,disclosed local tolerances and confirmation policy",
+      "automated_detector_status": "not_implemented",
+      "strategy_validation": "not_performed"
+    },
+    {
+      "id": "symmetrical_triangle",
+      "source_chapter": 10,
+      "pdf_pages": [
+        109,
+        120
+      ],
+      "knowledge_status": "reviewed_source_rules",
+      "visual_assessment_requires": "Actual chart,causal anchors,disclosed local tolerances and confirmation policy",
+      "automated_detector_status": "not_implemented",
+      "strategy_validation": "not_performed"
+    },
+    {
+      "id": "flag",
+      "source_chapter": 11,
+      "pdf_pages": [
+        121,
+        130
+      ],
+      "knowledge_status": "reviewed_source_rules",
+      "visual_assessment_requires": "Actual chart,causal anchors,disclosed local tolerances and confirmation policy",
+      "automated_detector_status": "not_implemented",
+      "strategy_validation": "not_performed"
+    },
+    {
+      "id": "pennant",
+      "source_chapter": 11,
+      "pdf_pages": [
+        121,
+        130
+      ],
+      "knowledge_status": "reviewed_source_rules",
+      "visual_assessment_requires": "Actual chart,causal anchors,disclosed local tolerances and confirmation policy",
+      "automated_detector_status": "not_implemented",
+      "strategy_validation": "not_performed"
+    },
+    {
+      "id": "double_bottom",
+      "source_chapter": 12,
+      "pdf_pages": [
+        131,
+        142
+      ],
+      "knowledge_status": "reviewed_source_rules",
+      "visual_assessment_requires": "Actual chart,causal anchors,disclosed local tolerances and confirmation policy",
+      "automated_detector_status": "not_implemented",
+      "strategy_validation": "not_performed"
+    },
+    {
+      "id": "triple_bottom",
+      "source_chapter": 13,
+      "pdf_pages": [
+        143,
+        154
+      ],
+      "knowledge_status": "reviewed_source_rules",
+      "visual_assessment_requires": "Actual chart,causal anchors,disclosed local tolerances and confirmation policy",
+      "automated_detector_status": "not_implemented",
+      "strategy_validation": "not_performed"
+    },
+    {
+      "id": "double_top",
+      "source_chapter": 14,
+      "pdf_pages": [
+        155,
+        166
+      ],
+      "knowledge_status": "reviewed_source_rules",
+      "visual_assessment_requires": "Actual chart,causal anchors,disclosed local tolerances and confirmation policy",
+      "automated_detector_status": "not_implemented",
+      "strategy_validation": "not_performed"
+    },
+    {
+      "id": "triple_top",
+      "source_chapter": 15,
+      "pdf_pages": [
+        167,
+        178
+      ],
+      "knowledge_status": "reviewed_source_rules",
+      "visual_assessment_requires": "Actual chart,causal anchors,disclosed local tolerances and confirmation policy",
+      "automated_detector_status": "not_implemented",
+      "strategy_validation": "not_performed"
+    },
+    {
+      "id": "head_shoulders_bottom",
+      "source_chapter": 16,
+      "pdf_pages": [
+        179,
+        190
+      ],
+      "knowledge_status": "reviewed_source_rules",
+      "visual_assessment_requires": "Actual chart,causal anchors,disclosed local tolerances and confirmation policy",
+      "automated_detector_status": "not_implemented",
+      "strategy_validation": "not_performed"
+    },
+    {
+      "id": "head_shoulders_top",
+      "source_chapter": 17,
+      "pdf_pages": [
+        191,
+        202
+      ],
+      "knowledge_status": "reviewed_source_rules",
+      "visual_assessment_requires": "Actual chart,causal anchors,disclosed local tolerances and confirmation policy",
+      "automated_detector_status": "not_implemented",
+      "strategy_validation": "not_performed"
+    }
+  ],
+  "appendix_pdf_pages": [
+    327,
+    332
+  ],
+  "appendix_silhouette_names": [
+    "broadening bottom",
+    "broadening top",
+    "right-angled ascending broadening formation",
+    "right-angled descending broadening formation",
+    "ascending broadening wedge",
+    "descending broadening wedge",
+    "bump-and-run reversal bottom",
+    "bump-and-run reversal top",
+    "cup with handle",
+    "inverted cup with handle",
+    "dead-cat bounce",
+    "inverted dead-cat bounce",
+    "diamond bottom",
+    "diamond top",
+    "Adam&Adam double bottom",
+    "Adam&Eve double bottom",
+    "Eve&Adam double bottom",
+    "Eve&Eve double bottom",
+    "Adam&Adam double top",
+    "Adam&Eve double top",
+    "Eve&Adam double top",
+    "Eve&Eve double top",
+    "flag",
+    "high and tight flag",
+    "gap",
+    "head-and-shoulders bottom",
+    "complex head-and-shoulders bottom",
+    "head-and-shoulders top",
+    "complex head-and-shoulders top",
+    "horn bottom",
+    "horn top",
+    "island reversal bottom",
+    "island reversal top",
+    "long island",
+    "measured move down",
+    "measured move up",
+    "pennant",
+    "pipe bottom",
+    "pipe top",
+    "rectangle bottom",
+    "rectangle top",
+    "rounding bottom",
+    "rounding top",
+    "ascending scallop",
+    "ascending inverted scallop",
+    "descending scallop",
+    "descending inverted scallop",
+    "three falling peaks",
+    "three rising valleys",
+    "ascending triangle",
+    "descending triangle",
+    "symmetrical triangle",
+    "triple bottom",
+    "triple top",
+    "falling wedge",
+    "rising wedge"
+  ],
+  "appendix_rules": "Recognition only unless full chapter/rule separately identified; silhouettes do not supply complete detector/entry/risk algorithms.",
+  "supporting_concepts": [
+    "causal_pivots",
+    "linear_log_trendlines",
+    "HCR_support_resistance_zones",
+    "true_price_gaps",
+    "throwback_pullback",
+    "strict_bust_vs_adverse_break",
+    "pattern_specific_targets",
+    "apex_time_alert",
+    "swing_price_projection"
+  ],
+  "geometry_helper": {
+    "path": "scripts/chart_geometry.py",
+    "status": "implemented_arithmetic_only",
+    "operations": [
+      "linear_log_line_value",
+      "height_projection",
+      "head_neckline_projection",
+      "flag_projection",
+      "swing_projection",
+      "continuation_gap_projection"
+    ],
+    "not_implemented": [
+      "pattern_detection",
+      "pivot_extraction",
+      "apex_time_calculation",
+      "market_data_retrieval",
+      "chart_drawing_integration",
+      "trading_execution"
+    ],
+    "tests": "scripts/test_chart_geometry.py; arithmetic/causality/input checks,not profitability tests"
+  },
+  "scan_statuses": [
+    "unavailable_data",
+    "not_implemented",
+    "visually_assessed_no_match",
+    "developing",
+    "confirmed",
+    "invalidated_before_confirmation",
+    "adverse_break",
+    "strict_bust",
+    "ambiguous"
+  ]
+}
