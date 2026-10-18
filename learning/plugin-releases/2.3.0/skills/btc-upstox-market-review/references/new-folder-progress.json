@@ -1,0 +1,62 @@
+{
+  "folder": "New Folder",
+  "order": "repository alphabetical listing; complete one book before the next",
+  "total_pages": 1231,
+  "completed_books": 2,
+  "books": [
+    {
+      "order": 1,
+      "title": "Algorithmic Trading",
+      "author": "Ernest P. Chan",
+      "pdf_pages": 225,
+      "blob_sha": "b989ccdd650e8f1ff6b30f6c7164410c8ba7622a",
+      "status": "complete_text_review",
+      "read_sections": [
+        "All 225 PDF pages: front matter, preface, Chapters 1-8, conclusion and back matter"
+      ],
+      "next_pdf_page": null,
+      "not_done": [
+        "Full strategy-code replication",
+        "Empirical BTC/Indian-options validation",
+        "Exhaustive full-resolution visual/equation audit"
+      ],
+      "source_sha256": "1c8b27ebee9f35f964794013e8629e5343c23506fa890ad65783867e8b3518ba",
+      "visual_review": "50 selected page thumbnails plus targeted full-resolution tables/code pages",
+      "annotation_objects": 0
+    },
+    {
+      "order": 2,
+      "title": "Mastering the Trade",
+      "author": "John F. Carter",
+      "pdf_pages": 525,
+      "blob_sha": "d5b11415b61bbfb6934879af581d65935d8ff0c0",
+      "status": "complete_text_review",
+      "note": "Full extracted-text review completed across coordinated chapter readers before plugin update.",
+      "read_sections": [
+        "All525physicalPDFpages:front matter,Chapters1-26,conclusion,index,authorbio,finalcontentsfragment"
+      ],
+      "next_pdf_page": null,
+      "source_sha256": "324e5091c2e5bf138f749deb1447e26aaf97efa403b321b139dfd9ad55930aff",
+      "annotation_objects": 233,
+      "reading_note": "book-notes/carter-mastering-full.md",
+      "visual_review": "Selected chart/table/formula pages; see full note ledger. Not exhaustive.",
+      "not_done": [
+        "Empirical strategy replication",
+        "BTC/Indian options out-of-sample validation",
+        "Exact proprietary TTM implementation audit",
+        "Exhaustive full-resolution visual/annotation audit"
+      ]
+    },
+    {
+      "order": 3,
+      "title": "The Art and Science of Technical Analysis",
+      "author": "not verified from source title page in this study",
+      "pdf_pages": 481,
+      "blob_sha": "6c66478a4220768e445f240fa19c3bce096ad0a2",
+      "status": "not_read",
+      "note": "Downloaded and text extracted only; not substantively reviewed."
+    }
+  ],
+  "background_reading": false,
+  "next_book_order": 3
+}
